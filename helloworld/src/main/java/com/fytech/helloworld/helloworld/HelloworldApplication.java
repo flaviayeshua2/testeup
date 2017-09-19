@@ -10,5 +10,7 @@ public class HelloworldApplication {
 		SpringApplication.run(HelloworldApplication.class, args);
 		
 		System.out.println(new Pessoa("Marco", 37));
+		
+		System.out.println("Alterando");
 	}
 }
