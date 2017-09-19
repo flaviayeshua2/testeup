@@ -15,9 +15,6 @@ public class Pessoa {
 		this.idade = idade;
 	}
 
-	public String toString() {
-		return "Pessoa [nome=" + nome + ", idade=" + idade + "]";
-	}
 	public String getNome() {
 		return nome;
 	}
@@ -31,5 +28,7 @@ public class Pessoa {
 		this.idade = idade;
 	}
 	
-	
+	public String toString() {
+		return "Pessoa [nome=" + nome + ", idade=" + idade + "]";
+	}
 }
